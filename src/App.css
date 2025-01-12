@@ -1,0 +1,42 @@
+body {
+     margin: 0 !important;
+}
+
+/* Navbar */
+.css-zanzjh-MuiPaper-root-MuiAppBar-root {
+     --AppBar-background: none !important;
+}
+
+/* Bitcoin */
+.apexcharts-toolbar {
+     visibility: hidden;
+}
+
+.tradingview-widget-container iframe:nth-of-type(2) {
+     display: none !important;
+     visibility: hidden !important;
+ } 
+
+/* Tabs */
+.css-uyle5o-MuiButtonBase-root-MuiTab-root.Mui-selected {
+     color: #0141CF !important;
+}
+
+.css-1qltlow-MuiTabs-indicator {
+     background-color: #0141CF !important;
+}
+
+/* Performance */
+.indicator {
+     top: .3rem !important;
+}
+
+/* sentiment */
+.css-1588512-MuiButtonBase-root-MuiButton-root {
+     min-width: 0 !important;
+}
+
+.css-11w801t-MuiLinearProgress-root, .css-g8p7sk-MuiLinearProgress-root::before, .css-1mw8pjg-MuiLinearProgress-root {
+     background-color: white !important;
+     display: hidden !important;
+}
